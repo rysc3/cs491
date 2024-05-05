@@ -1,0 +1,4 @@
+##
+# I've edited the parameters to ask for the suggested, N=1, ntasks=4, gpus=4, gpus-per-task=1
+# I've also edited the path to the hpcg.sh to the one I edited.
+#

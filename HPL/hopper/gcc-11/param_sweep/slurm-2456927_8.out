@@ -1,0 +1,44 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 8: 336, 16, 8, 180000
+Read param BLOCK_SIZE: 336
+Read param P_VAL: 16
+Read param Q_VAL: 8
+Read param N_VAL: 180000
+Temp directory: /carc/scratch/users/rdscher/tmp.bCFVDz43kd
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.bCFVDz43kd/8
+Now running in /carc/scratch/users/rdscher/tmp.bCFVDz43kd/8
+Running xhpl in /carc/scratch/users/rdscher/tmp.bCFVDz43kd/8...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2459506 running on hopper[002-005]
+--------------------------------------------------------------------------
+It appears as if there is not enough space for /tmp/ompi.hopper005.3792/jf.34674/0/shared_mem_cuda_pool.hopper005 (the shared-memory backing
+file). It is likely that your MPI job will now either abort or experience
+performance degradation.
+
+  Local host:  hopper005
+  Space Requested: 134217736 B
+  Space Available: 8339456 B
+--------------------------------------------------------------------------
+[hopper005:3028355] create_and_attach: unable to create shared memory BTL coordinating strucure :: size 134217728 
+slurmstepd: error: Detected 1 oom_kill event in StepId=2459506.0. Some of the step tasks have been OOM Killed.
+srun: error: hopper005: task 108: Out Of Memory
+[hopper005:3028355] *** An error occurred in MPI_Send
+[hopper005:3028355] *** reported by process [2272395264,96]
+[hopper005:3028355] *** on communicator MPI COMMUNICATOR 5 SPLIT FROM 3
+[hopper005:3028355] *** MPI_ERR_OTHER: known error not in list
+[hopper005:3028355] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper005:3028355] ***    and potentially your MPI job)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2459506.0 ON hopper002 CANCELLED AT 2024-04-19T18:13:31 ***
+srun: error: hopper002: tasks 0,6,9-13,16-21,24-25,31: Killed
+srun: error: hopper003: tasks 33-37,40,42,44,48,50,52,54,57,59,62-63: Killed
+srun: error: hopper004: tasks 64-95: Killed
+srun: error: hopper003: tasks 32,38-39,41,43,45-47,49,51,53,55-56,58,60-61: Killed
+srun: error: hopper002: tasks 1-5,7-8,14-15,22-23,26-30: Killed
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results Gflops: used:
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.bCFVDz43kd

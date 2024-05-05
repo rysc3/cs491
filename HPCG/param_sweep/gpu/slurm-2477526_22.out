@@ -1,0 +1,40 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_template.dat
+Read param line 22: 10000, 10000, 10000, 300
+Read param NX: 10000
+Read param NY: 10000
+Read param NZ: 10000
+Read param TIME: 300
+Temp directory: /carc/scratch/users/rdscher/tmp.1nsubgcRAJ
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.1nsubgcRAJ/22
+Now running in /carc/scratch/users/rdscher/tmp.1nsubgcRAJ/22
+Running xhpcg in /carc/scratch/users/rdscher/tmp.1nsubgcRAJ/22...
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+terminate called after throwing an instance of 'std::bad_array_new_length'
+  what():  std::bad_array_new_length
+[hopper062:799344] *** Process received signal ***
+[hopper062:799344] Signal: Aborted (6)
+[hopper062:799344] Signal code:  (-6)
+[hopper062:799344] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x1551766dd520]
+[hopper062:799344] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x1551767319fc]
+[hopper062:799344] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x1551766dd476]
+[hopper062:799344] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x1551766c37f3]
+[hopper062:799344] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x155176a97b9e]
+[hopper062:799344] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x155176aa320c]
+[hopper062:799344] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x155176aa3277]
+[hopper062:799344] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x155176aa34d8]
+[hopper062:799344] [ 8] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2681)[0x155176a97681]
+[hopper062:799344] [ 9] /workspace/hpcg-linux-x86_64/xhpcg(+0x13542)[0x561cde9ae542]
+[hopper062:799344] [10] /workspace/hpcg-linux-x86_64/xhpcg(+0x1b6be)[0x561cde9b66be]
+[hopper062:799344] [11] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x1551766c4d90]
+[hopper062:799344] [12] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x1551766c4e40]
+[hopper062:799344] [13] /workspace/hpcg-linux-x86_64/xhpcg(+0x1f4c5)[0x561cde9ba4c5]
+[hopper062:799344] *** End of error message ***
+/users/rdscher/CLASS/cs491/HPCG/hpcg.sh: line 299: 799344 Aborted                 ${NUMCMD} ${CPUBIND} ${MEMBIND} ${XHPCG} ${DAT} ${HPCG_CONTROL}
+srun: error: hopper062: task 0: Exited with exit code 134
+xhpcg finished
+Final Summary:
+
+Results Gflops: 
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_results.csv

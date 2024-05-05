@@ -1,0 +1,4 @@
+Scale Factor: 16
+Number of Threads: 16
+FRACTAL_DIMS: 10000 x 2000
+/var/spool/slurm/slurmd/job2452231/slurm_script: line 25: ./juliaset: No such file or directory

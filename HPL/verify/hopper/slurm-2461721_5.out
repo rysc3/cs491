@@ -1,0 +1,19 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/verify/hopper/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/verify/hopper/HPL_template.dat
+Read param line 5: 196, 8, 16, 178000
+Read param BLOCK_SIZE: 196
+Read param P_VAL: 8
+Read param Q_VAL: 16
+Read param N_VAL: 178000
+Temp directory: /carc/scratch/users/rdscher/tmp.WFBIJP3ETn
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.WFBIJP3ETn/5
+Now running in /carc/scratch/users/rdscher/tmp.WFBIJP3ETn/5
+Running xhpl in /carc/scratch/users/rdscher/tmp.WFBIJP3ETn/5...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2461985 running on hopper[002,004,006-007]
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used: -- T/V N NB P Q Time Gflops -------------------------------------------------------------------------------- WR11C2R4 178000 196 8 16 686.25 5.4789e+03
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used: -- T/V N NB P Q Time Gflops -------------------------------------------------------------------------------- WR11C2R4 178000 196 8 16 686.25 5.4789e+03
+Results Gflops: 5.4789e+03
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPL/verify/hopper/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.WFBIJP3ETn

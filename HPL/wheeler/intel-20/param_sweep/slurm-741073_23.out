@@ -1,0 +1,73 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_template.dat
+Read param line 23: 216, 27, 16, 30000
+Read param BLOCK_SIZE: 216
+Read param P_VAL: 27
+Read param Q_VAL: 16
+Read param N_VAL: 30000
+Temp directory: /carc/scratch/users/rdscher/tmp.PAni7brqaR
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.PAni7brqaR/23
+Now running in /carc/scratch/users/rdscher/tmp.PAni7brqaR/23
+Running xhpl in /carc/scratch/users/rdscher/tmp.PAni7brqaR/23...
+HPL ERROR from process # 0, on line 419 of function HPL_pdinfo:
+>>> Need at least 432 processes for these tests <<<
+
+HPL ERROR from process # 0, on line 621 of function HPL_pdinfo:
+>>> Illegal input in file HPL.dat. Exiting ... <<<
+
+srun: error: wheeler257: tasks 64-71: Exited with exit code 1
+srun: error: wheeler294: tasks 360-367: Exited with exit code 1
+srun: error: wheeler270: tasks 168-175: Exited with exit code 1
+srun: error: wheeler290: tasks 328-335: Exited with exit code 1
+srun: error: wheeler282: tasks 264-271: Exited with exit code 1
+srun: error: wheeler278: tasks 232-239: Exited with exit code 1
+srun: error: wheeler297: tasks 384-391: Exited with exit code 1
+srun: error: wheeler296: tasks 376-383: Exited with exit code 1
+srun: error: wheeler293: tasks 352-359: Exited with exit code 1
+srun: error: wheeler274: tasks 200-207: Exited with exit code 1
+srun: error: wheeler269: tasks 160-167: Exited with exit code 1
+srun: error: wheeler264: tasks 120-127: Exited with exit code 1
+srun: error: wheeler263: tasks 112-119: Exited with exit code 1
+srun: error: wheeler280: tasks 248-255: Exited with exit code 1
+srun: error: wheeler249: tasks 0-7: Exited with exit code 1
+srun: error: wheeler268: tasks 152-159: Exited with exit code 1
+srun: error: wheeler283: tasks 272-279: Exited with exit code 1
+srun: error: wheeler292: tasks 344-351: Exited with exit code 1
+srun: error: wheeler281: tasks 256-263: Exited with exit code 1
+srun: error: wheeler250: tasks 8-15: Exited with exit code 1
+srun: error: wheeler279: tasks 240-247: Exited with exit code 1
+srun: error: wheeler258: tasks 72-79: Exited with exit code 1
+srun: error: wheeler261: tasks 96-103: Exited with exit code 1
+srun: error: wheeler298: tasks 392-399: Exited with exit code 1
+srun: error: wheeler265: tasks 128-135: Exited with exit code 1
+srun: error: wheeler256: tasks 56-63: Exited with exit code 1
+srun: error: wheeler255: tasks 48-55: Exited with exit code 1
+srun: error: wheeler288: tasks 312-319: Exited with exit code 1
+srun: error: wheeler289: tasks 320-327: Exited with exit code 1
+srun: error: wheeler266: tasks 136-143: Exited with exit code 1
+srun: error: wheeler277: tasks 224-231: Exited with exit code 1
+srun: error: wheeler254: tasks 40-47: Exited with exit code 1
+srun: error: wheeler267: tasks 144-151: Exited with exit code 1
+srun: error: wheeler276: tasks 216-223: Exited with exit code 1
+srun: error: wheeler271: tasks 176-183: Exited with exit code 1
+srun: error: wheeler284: tasks 280-287: Exited with exit code 1
+srun: error: wheeler287: tasks 304-311: Exited with exit code 1
+srun: error: wheeler262: tasks 104-111: Exited with exit code 1
+srun: error: wheeler291: tasks 336-343: Exited with exit code 1
+srun: error: wheeler272: tasks 184-191: Exited with exit code 1
+srun: error: wheeler273: tasks 192-199: Exited with exit code 1
+srun: error: wheeler286: tasks 296-303: Exited with exit code 1
+srun: error: wheeler253: tasks 32-39: Exited with exit code 1
+srun: error: wheeler259: tasks 80-87: Exited with exit code 1
+srun: error: wheeler295: tasks 368-375: Exited with exit code 1
+srun: error: wheeler252: tasks 24-31: Exited with exit code 1
+srun: error: wheeler285: tasks 288-295: Exited with exit code 1
+srun: error: wheeler251: tasks 16-23: Exited with exit code 1
+srun: error: wheeler260: tasks 88-95: Exited with exit code 1
+srun: error: wheeler275: tasks 208-215: Exited with exit code 1
+xhpl finished
+Results:
+Results data:
+Results Gflops:
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.PAni7brqaR

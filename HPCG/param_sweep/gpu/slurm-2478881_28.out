@@ -1,0 +1,18 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_template.dat
+Read param line 28: 128, 128, 144, 60
+Read param NX: 128
+Read param NY: 128
+Read param NZ: 144
+Read param TIME: 60
+Temp directory: /carc/scratch/users/rdscher/tmp.zARpEVHUZY
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.zARpEVHUZY/28
+Now running in /carc/scratch/users/rdscher/tmp.zARpEVHUZY/28
+Running xhpcg in /carc/scratch/users/rdscher/tmp.zARpEVHUZY/28...
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+xhpcg finished
+Final Summary:
+Final Summary::HPCG result is VALID with a GFLOP/s rating of=123.268
+Results Gflops: 123.268
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_results.csv

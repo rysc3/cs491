@@ -1,0 +1,14 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPCG/param_sweep/cpu/HPCG_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPCG/param_sweep/cpu/HPCG_template.dat
+Read param line 3: 112, 112, 144, 60
+Read param NX: 112
+Read param NY: 112
+Read param NZ: 144
+Read param TIME: 60
+Temp directory: /carc/scratch/users/rdscher/tmp.Vs9UlK1awj
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.Vs9UlK1awj/3
+Now running in /carc/scratch/users/rdscher/tmp.Vs9UlK1awj/3
+Running xhpcg in /carc/scratch/users/rdscher/tmp.Vs9UlK1awj/3...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2493976 running on hopper[008-009]
+slurmstepd: error: *** JOB 2493976 ON hopper008 CANCELLED AT 2024-05-04T14:15:19 ***

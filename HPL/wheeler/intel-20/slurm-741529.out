@@ -1,0 +1,58 @@
+Tue Apr 16 18:08:33 MDT 2024
+HPL ERROR from process # 0, on line 419 of function HPL_pdinfo:
+>>> Need at least 400 processes for these tests <<<
+
+HPL ERROR from process # 0, on line 621 of function HPL_pdinfo:
+>>> Illegal input in file HPL.dat. Exiting ... <<<
+
+srun: error: wheeler297: task 48: Exited with exit code 1
+srun: error: wheeler255: task 6: Exited with exit code 1
+srun: error: wheeler272: task 23: Exited with exit code 1
+srun: error: wheeler279: task 30: Exited with exit code 1
+srun: error: wheeler268: task 19: Exited with exit code 1
+srun: error: wheeler261: task 12: Exited with exit code 1
+srun: error: wheeler294: task 45: Exited with exit code 1
+srun: error: wheeler273: task 24: Exited with exit code 1
+srun: error: wheeler256: task 7: Exited with exit code 1
+srun: error: wheeler291: task 42: Exited with exit code 1
+srun: error: wheeler258: task 9: Exited with exit code 1
+srun: error: wheeler275: task 26: Exited with exit code 1
+srun: error: wheeler254: task 5: Exited with exit code 1
+srun: error: wheeler253: task 4: Exited with exit code 1
+srun: error: wheeler264: task 15: Exited with exit code 1
+srun: error: wheeler295: task 46: Exited with exit code 1
+srun: error: wheeler292: task 43: Exited with exit code 1
+srun: error: wheeler259: task 10: Exited with exit code 1
+srun: error: wheeler298: task 49: Exited with exit code 1
+srun: error: wheeler289: task 40: Exited with exit code 1
+srun: error: wheeler262: task 13: Exited with exit code 1
+srun: error: wheeler271: task 22: Exited with exit code 1
+srun: error: wheeler284: task 35: Exited with exit code 1
+srun: error: wheeler293: task 44: Exited with exit code 1
+srun: error: wheeler282: task 33: Exited with exit code 1
+srun: error: wheeler285: task 36: Exited with exit code 1
+srun: error: wheeler280: task 31: Exited with exit code 1
+srun: error: wheeler267: task 18: Exited with exit code 1
+srun: error: wheeler278: task 29: Exited with exit code 1
+srun: error: wheeler277: task 28: Exited with exit code 1
+srun: error: wheeler260: task 11: Exited with exit code 1
+srun: error: wheeler263: task 14: Exited with exit code 1
+srun: error: wheeler274: task 25: Exited with exit code 1
+srun: error: wheeler265: task 16: Exited with exit code 1
+srun: error: wheeler290: task 41: Exited with exit code 1
+srun: error: wheeler287: task 38: Exited with exit code 1
+srun: error: wheeler270: task 21: Exited with exit code 1
+srun: error: wheeler283: task 34: Exited with exit code 1
+srun: error: wheeler288: task 39: Exited with exit code 1
+srun: error: wheeler281: task 32: Exited with exit code 1
+srun: error: wheeler276: task 27: Exited with exit code 1
+srun: error: wheeler257: task 8: Exited with exit code 1
+srun: error: wheeler286: task 37: Exited with exit code 1
+srun: error: wheeler269: task 20: Exited with exit code 1
+srun: error: wheeler296: task 47: Exited with exit code 1
+srun: error: wheeler218: task 2: Exited with exit code 1
+srun: error: wheeler266: task 17: Exited with exit code 1
+srun: error: wheeler217: task 1: Exited with exit code 1
+srun: error: wheeler219: task 3: Exited with exit code 1
+srun: error: wheeler216: task 0: Exited with exit code 1
+Tue Apr 16 18:08:36 MDT 2024

@@ -1,0 +1,16 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_template.dat
+Read param line 3: 24, 24, 24, 300
+Read param NX: 24
+Read param NY: 24
+Read param NZ: 24
+Read param TIME: 300
+Temp directory: /carc/scratch/users/rdscher/tmp.3MZ5LGVhvy
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.3MZ5LGVhvy/3
+Now running in /carc/scratch/users/rdscher/tmp.3MZ5LGVhvy/3
+Running xhpcg in /carc/scratch/users/rdscher/tmp.3MZ5LGVhvy/3...
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 2478289 ON hopper050 CANCELLED AT 2024-05-02T19:38:58 ***
+slurmstepd: error: *** STEP 2478289.0 ON hopper050 CANCELLED AT 2024-05-02T19:38:58 ***

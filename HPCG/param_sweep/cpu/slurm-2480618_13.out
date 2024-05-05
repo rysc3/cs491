@@ -1,0 +1,13 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPCG/param_sweep/cpu/HPCG_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPCG/param_sweep/cpu/HPCG_template.dat
+Read param line 13: 112, 144, 144, 60
+Read param NX: 112
+Read param NY: 144
+Read param NZ: 144
+Read param TIME: 60
+Temp directory: /carc/scratch/users/rdscher/tmp.MOCJtX2tX9
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.MOCJtX2tX9/13
+Now running in /carc/scratch/users/rdscher/tmp.MOCJtX2tX9/13
+Running xhpcg in /carc/scratch/users/rdscher/tmp.MOCJtX2tX9/13...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2500120 running on hopper[006-007]

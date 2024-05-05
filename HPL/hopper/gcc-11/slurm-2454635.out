@@ -1,0 +1,14 @@
+Wed Apr 17 09:14:13 MDT 2024
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2454635 running on hopper[001-002,004-005]
+HPL ERROR from process # 0, on line 419 of function HPL_pdinfo:
+>>> Need at least 128 processes for these tests <<<
+
+HPL ERROR from process # 0, on line 621 of function HPL_pdinfo:
+>>> Illegal input in file HPL.dat. Exiting ... <<<
+
+srun: error: hopper001: task 0: Exited with exit code 1
+srun: error: hopper002: task 1: Exited with exit code 1
+srun: error: hopper004: task 2: Exited with exit code 1
+srun: error: hopper005: task 3: Exited with exit code 1
+Wed Apr 17 09:14:13 MDT 2024

@@ -1,0 +1,21 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_template.dat
+Read param line 6: 256, 256, 256, 300
+Read param NX: 256
+Read param NY: 256
+Read param NZ: 256
+Read param TIME: 300
+Temp directory: /carc/scratch/users/rdscher/tmp.11yBaT56Rs
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.11yBaT56Rs/6
+Now running in /carc/scratch/users/rdscher/tmp.11yBaT56Rs/6
+Running xhpcg in /carc/scratch/users/rdscher/tmp.11yBaT56Rs/6...
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+/users/rdscher/CLASS/cs491/HPCG/hpcg.sh: line 299: 1805522 Killed                  ${NUMCMD} ${CPUBIND} ${MEMBIND} ${XHPCG} ${DAT} ${HPCG_CONTROL}
+srun: error: hopper050: task 0: Out Of Memory
+slurmstepd: error: Detected 1 oom_kill event in StepId=2478177.0. Some of the step tasks have been OOM Killed.
+xhpcg finished
+Final Summary:
+
+Results Gflops: 
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_results.csv

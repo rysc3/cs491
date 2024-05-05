@@ -1,0 +1,72 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_template.dat
+Read param line 6: 200, 25, 16, 550000
+Read param BLOCK_SIZE: 200
+Read param P_VAL: 25
+Read param Q_VAL: 16
+Read param N_VAL: 550000
+Temp directory: /carc/scratch/users/rdscher/tmp.wC8FeS4sE0
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.wC8FeS4sE0/6
+Now running in /carc/scratch/users/rdscher/tmp.wC8FeS4sE0/6
+Running xhpl in /carc/scratch/users/rdscher/tmp.wC8FeS4sE0/6...
+srun: error: timeout waiting for task launch, started 392 of 400 tasks
+srun: StepId=743266.0 aborted before step completely launched.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 743266.0 ON wheeler036 CANCELLED AT 2024-04-17T11:18:19 ***
+srun: error: wheeler210: tasks 376-383: Killed
+srun: error: wheeler168: tasks 176-183: Killed
+srun: error: wheeler079: tasks 40-47: Killed
+srun: error: wheeler164: tasks 144-151: Killed
+srun: error: wheeler171: tasks 200-207: Killed
+srun: error: wheeler182: tasks 288-295: Killed
+srun: error: wheeler137: tasks 104-111: Killed
+srun: error: wheeler170: tasks 192-199: Killed
+srun: error: wheeler181: tasks 280-287: Killed
+srun: error: wheeler136: tasks 96-103: Killed
+srun: error: wheeler177: tasks 248-255: Killed
+srun: error: wheeler080: tasks 48-55: Killed
+srun: error: wheeler077: tasks 24-31: Killed
+srun: error: wheeler178: tasks 256-263: Killed
+srun: error: wheeler141: tasks 136-143: Killed
+srun: error: wheeler203: tasks 352-359: Killed
+srun: error: wheeler174: tasks 224-231: Killed
+srun: error: wheeler036: tasks 0-7: Killed
+srun: error: wheeler176: tasks 240-247: Killed
+srun: error: wheeler038: tasks 16-23: Killed
+srun: error: wheeler202: tasks 344-351: Killed
+srun: error: wheeler211: tasks 384-391: Killed
+srun: error: wheeler183: tasks 296-303: Killed
+srun: error: wheeler166: tasks 160-167: Killed
+srun: error: wheeler110: tasks 72-79: Killed
+srun: error: wheeler111: tasks 80-87: Killed
+srun: error: wheeler179: tasks 264-271: Killed
+srun: error: wheeler209: tasks 368-375: Killed
+srun: error: wheeler185: tasks 312-319: Killed
+srun: error: wheeler186: tasks 320-327: Killed
+srun: error: wheeler165: tasks 152-159: Killed
+srun: error: wheeler138: tasks 112-119: Killed
+srun: error: wheeler037: tasks 8-15: Killed
+srun: error: wheeler172: tasks 208-215: Killed
+srun: error: wheeler108: tasks 56-63: Killed
+srun: error: wheeler078: tasks 32-39: Killed
+srun: error: wheeler173: tasks 216-223: Killed
+srun: error: wheeler184: tasks 304-311: Killed
+srun: error: wheeler204: tasks 360-367: Killed
+srun: error: wheeler109: tasks 64-71: Killed
+srun: error: wheeler187: tasks 328-335: Killed
+srun: error: wheeler135: tasks 88-95: Killed
+srun: error: wheeler180: tasks 272-279: Killed
+srun: error: wheeler175: tasks 232-239: Killed
+srun: error: wheeler167: tasks 168-175: Killed
+srun: error: wheeler212: tasks 392-399: Killed
+srun: error: wheeler201: tasks 336-343: Killed
+srun: error: wheeler140: tasks 128-135: Killed
+srun: error: wheeler139: tasks 120-127: Killed
+srun: error: Timed out waiting for job step to complete
+xhpl finished
+grep: HPL.out: No such file or directory
+Results:
+Results data:
+Results Gflops:
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.wC8FeS4sE0

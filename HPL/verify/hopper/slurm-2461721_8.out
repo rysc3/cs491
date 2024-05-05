@@ -1,0 +1,32 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/verify/hopper/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/verify/hopper/HPL_template.dat
+Read param line 8: ##
+Read param BLOCK_SIZE: ##
+Read param P_VAL:
+Read param Q_VAL:
+Read param N_VAL:
+Temp directory: /carc/scratch/users/rdscher/tmp.14oz1W0HVD
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.14oz1W0HVD/8
+Now running in /carc/scratch/users/rdscher/tmp.14oz1W0HVD/8
+Running xhpl in /carc/scratch/users/rdscher/tmp.14oz1W0HVD/8...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2461988 running on hopper[002,004,006-007]
+HPL ERROR from process # 0, on line 367 of function HPL_pdinfo:
+>>> Value of NB less than 1 <<<
+
+HPL ERROR from process # 0, on line 621 of function HPL_pdinfo:
+>>> Illegal input in file HPL.dat. Exiting ... <<<
+
+srun: error: hopper004: task 63: Exited with exit code 1
+srun: error: hopper007: tasks 96,98,101,109,115,118,120: Exited with exit code 1
+srun: error: hopper007: tasks 99,103,105,108,110,114,117,119,122,124-126: Exited with exit code 1
+srun: error: hopper004: tasks 32-62: Exited with exit code 1
+srun: error: hopper002: tasks 0-31: Exited with exit code 1
+srun: error: hopper007: tasks 97,100,102,104,106-107,111-113,116,121,123,127: Exited with exit code 1
+srun: error: hopper006: tasks 64-95: Exited with exit code 1
+xhpl finished
+Results:
+Results data:
+Results Gflops:
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPL/verify/hopper/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.14oz1W0HVD

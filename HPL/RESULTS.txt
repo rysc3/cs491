@@ -1,0 +1,28 @@
+          Hopper:
+(Slurm)
+Nodes: 4
+ntasks-per-node: 32
+--exclusive 
+OMP_NUM_THREADS=64 
+
+(results) 
+NB: 336
+P: 16
+Q: 8
+Ns: 178,000 
+GFLOPS: 5.6202e+03
+
+
+          Wheeler:
+(Slurm)
+Nodes: 50 
+ntasks-per-node: 8
+--exclusive 
+OMP_NUM_THREADS: 4
+
+(results) 
+NB: 200 
+P: 25
+Q: 16 
+Ns: 415,000
+GFLOPS: 4.0163e+03

@@ -1,0 +1,17 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_template.dat
+Read param line 10: 200, 25, 16, 240000
+Read param BLOCK_SIZE: 200
+Read param P_VAL: 25
+Read param Q_VAL: 16
+Read param N_VAL: 240000
+Temp directory: /carc/scratch/users/rdscher/tmp.VKnpu0Jz0c
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.VKnpu0Jz0c/10
+Now running in /carc/scratch/users/rdscher/tmp.VKnpu0Jz0c/10
+Running xhpl in /carc/scratch/users/rdscher/tmp.VKnpu0Jz0c/10...
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used: -- T/V N NB P Q Time Gflops -------------------------------------------------------------------------------- WR12R2R4 240000 200 25 16 2384.07 3.8657e+03
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used: -- T/V N NB P Q Time Gflops -------------------------------------------------------------------------------- WR12R2R4 240000 200 25 16 2384.07 3.8657e+03
+Results Gflops: 3.8657e+03
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.VKnpu0Jz0c

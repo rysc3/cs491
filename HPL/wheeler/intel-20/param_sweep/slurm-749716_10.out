@@ -1,0 +1,210 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_template.dat
+Read param line 10: 200, 25, 16, 600000
+Read param BLOCK_SIZE: 200
+Read param P_VAL: 25
+Read param Q_VAL: 16
+Read param N_VAL: 600000
+Temp directory: /carc/scratch/users/rdscher/tmp.mcd5rpdogY
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.mcd5rpdogY/10
+Now running in /carc/scratch/users/rdscher/tmp.mcd5rpdogY/10
+Running xhpl in /carc/scratch/users/rdscher/tmp.mcd5rpdogY/10...
+srun: error: wheeler050: task 25: Killed
+srun: error: wheeler070: task 177: Killed
+srun: error: wheeler097: task 278: Killed
+srun: error: wheeler094: task 251: Killed
+srun: error: wheeler157: task 389: Killed
+srun: error: wheeler073: task 204: Killed
+srun: error: wheeler101: task 307: Killed
+srun: error: wheeler052: task 44: Killed
+srun: error: wheeler049: task 17: Killed
+srun: error: wheeler071: task 184: Killed
+srun: error: wheeler074: task 208: Killed
+srun: error: wheeler106: task 348: Killed
+srun: error: wheeler076: task 225: Killed
+srun: error: wheeler060: task 105: Killed
+srun: error: wheeler095: task 256: Killed
+srun: error: wheeler056: task 79: Killed
+srun: error: wheeler099: task 295: Killed
+srun: error: wheeler108: task 364: Killed
+srun: error: wheeler059: task 101: Killed
+srun: error: wheeler182: task 394: Killed
+srun: error: wheeler066: tasks 147,150: Killed
+srun: error: wheeler048: task 8: Killed
+srun: error: wheeler047: task 4: Killed
+srun: error: wheeler071: task 185: Killed
+srun: error: wheeler062: task 116: Killed
+srun: error: wheeler065: task 139: Killed
+srun: error: wheeler072: task 195: Killed
+srun: error: wheeler096: tasks 264,266: Killed
+srun: error: wheeler074: task 214: Killed
+srun: error: wheeler073: task 200: Killed
+srun: error: wheeler157: task 384: Killed
+srun: error: wheeler052: task 45: Killed
+srun: error: wheeler101: task 309: Killed
+srun: error: slurm_send_node_msg: [socket:[8825647]] slurm_bufs_sendto(msg_type=RESPONSE_SLURM_RC) failed: Unexpected missing socket error
+srun: error: wheeler067: tasks 152-153: Killed
+srun: error: wheeler068: task 160: Killed
+srun: error: slurm_send_node_msg: [socket:[8825649]] slurm_bufs_sendto(msg_type=RESPONSE_SLURM_RC) failed: Unexpected missing socket error
+srun: error: wheeler110: tasks 376,380: Killed
+srun: error: wheeler107: task 356: Killed
+srun: error: slurm_send_node_msg: [socket:[8826594]] slurm_bufs_sendto(msg_type=RESPONSE_SLURM_RC) failed: Unexpected missing socket error
+srun: error: wheeler063: tasks 125-126: Killed
+srun: error: wheeler103: tasks 320,326: Killed
+srun: error: slurm_send_node_msg: [socket:[8828660]] slurm_bufs_sendto(msg_type=RESPONSE_SLURM_RC) failed: Unexpected missing socket error
+srun: error: wheeler058: tasks 92,94: Killed
+srun: error: wheeler105: tasks 336,341: Killed
+srun: error: wheeler077: tasks 232-233: Killed
+srun: error: wheeler055: tasks 66-67: Killed
+srun: error: wheeler075: tasks 216,222: Killed
+srun: error: wheeler101: task 309: Killed
+srun: error: Task 309 reported exit for a second time.
+srun: error: wheeler108: task 362: Killed
+Abort(673306639) on node 64 (rank 64 in comm 0): Fatal error in PMPI_Send: Other MPI error, error stack:
+PMPI_Send(159)...................: MPI_Send(buf=0x7ffd1a15c5a0, count=1, MPI_INT, dest=80, tag=9001, comm=0x84000003) failed
+MPID_Send(775)...................: 
+MPIDI_send_unsafe(222)...........: 
+MPIDI_OFI_send_lightweight(40)...: 
+MPIDI_OFI_inject_handler_vci(671): OFI tagged inject failed (ofi_impl.h:671:MPIDI_OFI_inject_handler_vci:No route to host)
+srun: error: wheeler068: task 160: Killed
+srun: error: Task 160 reported exit for a second time.
+srun: error: wheeler106: task 345: Killed
+srun: error: wheeler095: task 262: Killed
+srun: error: wheeler056: task 78: Killed
+srun: error: wheeler070: task 181: Killed
+srun: error: wheeler182: task 399: Killed
+srun: error: wheeler059: task 98: Killed
+srun: error: wheeler102: tasks 312-313: Killed
+srun: error: wheeler103: tasks 320,326: Killed
+srun: error: Task 320 reported exit for a second time.
+srun: error: Task 326 reported exit for a second time.
+srun: error: wheeler060: task 108: Killed
+srun: error: wheeler049: task 21: Killed
+srun: error: wheeler104: tasks 328-329: Killed
+slurmstepd: error: *** STEP 749977.0 ON wheeler047 CANCELLED AT 2024-04-22T21:04:31 ***
+srun: error: wheeler107: task 356: Killed
+srun: error: Task 356 reported exit for a second time.
+srun: error: wheeler094: task 252: Killed
+srun: error: wheeler109: tasks 371,374: Killed
+srun: error: wheeler069: tasks 168-169: Killed
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: wheeler064: tasks 128,135: Killed
+srun: error: wheeler100: tasks 297,301: Killed
+srun: error: wheeler047: task 3: Killed
+srun: error: wheeler048: task 9: Killed
+srun: error: wheeler051: tasks 35,37: Killed
+srun: error: wheeler050: tasks 26,29-30: Killed
+srun: error: wheeler057: tasks 80-81: Killed
+srun: error: wheeler065: task 142: Killed
+srun: error: wheeler099: task 289: Killed
+srun: error: wheeler096: tasks 267,270: Killed
+srun: error: wheeler068: task 165: Killed
+srun: error: wheeler071: task 187: Killed
+srun: error: wheeler066: tasks 148,151: Killed
+srun: error: wheeler073: tasks 205-206: Killed
+srun: error: wheeler095: tasks 258,260: Killed
+srun: error: wheeler077: task 238: Killed
+srun: error: wheeler074: tasks 211,213: Killed
+srun: error: wheeler075: task 220: Killed
+srun: error: wheeler070: tasks 176,179: Killed
+srun: error: wheeler067: tasks 154-157,159: Killed
+srun: error: wheeler053: tasks 52,55: Killed
+srun: error: wheeler058: tasks 89-90: Killed
+srun: error: wheeler049: tasks 16,20: Killed
+srun: error: wheeler052: tasks 46-47: Killed
+srun: error: wheeler055: tasks 69-70: Killed
+srun: error: wheeler063: tasks 121,123: Killed
+srun: error: wheeler062: task 114: Killed
+srun: error: wheeler056: tasks 74-75: Killed
+srun: error: wheeler059: tasks 96-97,99,102-103: Killed
+srun: error: wheeler060: tasks 104,107,109-111: Killed
+srun: error: wheeler064: tasks 129-134: Killed
+srun: error: wheeler054: tasks 56,61: Killed
+srun: error: wheeler074: tasks 209-210,212,215: Killed
+srun: error: wheeler067: task 158: Killed
+srun: error: wheeler070: tasks 178,180,182-183: Killed
+srun: error: wheeler094: tasks 248-250,253-255: Killed
+srun: error: wheeler057: tasks 82-87: Killed
+srun: error: wheeler069: tasks 170-175: Killed
+srun: error: wheeler068: tasks 161-164,166-167: Killed
+srun: error: wheeler073: tasks 201-203,207: Killed
+srun: error: wheeler095: tasks 257,259,261,263: Killed
+srun: error: wheeler077: tasks 234-237,239: Killed
+srun: error: wheeler066: tasks 144-146,149: Killed
+srun: error: wheeler065: tasks 136-138,140-141,143: Killed
+srun: error: wheeler047: tasks 0-2,5-7: Killed
+srun: error: wheeler096: tasks 265,268-269,271: Killed
+srun: error: wheeler051: tasks 32-34,36,38-39: Killed
+srun: error: wheeler075: tasks 217-219,221,223: Killed
+srun: error: wheeler107: task 352: Killed
+srun: error: wheeler048: tasks 10-15: Killed
+srun: error: wheeler072: tasks 192-194,196-199: Killed
+srun: error: wheeler071: tasks 186,188-191: Killed
+srun: error: wheeler050: tasks 24,27-28,31: Killed
+srun: error: wheeler060: task 106: Killed
+srun: error: wheeler059: task 100: Killed
+srun: error: wheeler056: tasks 72-73,76-77: Killed
+srun: error: wheeler058: tasks 88,91,93,95: Killed
+srun: error: wheeler054: tasks 57-60,62-63: Killed
+srun: error: wheeler063: tasks 120,122,124,127: Killed
+srun: error: wheeler062: tasks 112-113,115,117-119: Killed
+srun: error: wheeler052: tasks 40-43: Killed
+srun: error: wheeler049: tasks 18-19,22-23: Killed
+srun: error: wheeler055: tasks 64-65,68,71: Killed
+srun: error: wheeler053: task 53: Killed
+srun: error: wheeler053: tasks 51,54: Killed
+srun: error: wheeler053: tasks 48,50: Killed
+srun: error: wheeler093: tasks 240,243: Killed
+srun: error: wheeler093: task 241: Killed
+srun: error: wheeler093: task 244: Killed
+srun: error: wheeler053: task 49: Killed
+srun: error: wheeler098: task 285: Killed
+srun: error: wheeler093: tasks 242,246-247: Killed
+srun: error: wheeler093: task 245: Killed
+srun: error: wheeler098: task 286: Killed
+srun: error: wheeler157: tasks 385-388,390: Killed
+srun: error: wheeler157: task 391: Killed
+srun: error: wheeler105: tasks 337,339,343: Killed
+srun: error: wheeler102: tasks 316,318: Killed
+srun: error: wheeler101: tasks 308,311: Killed
+srun: error: wheeler104: tasks 330,332: Killed
+srun: error: wheeler100: tasks 302-303: Killed
+srun: error: wheeler182: tasks 392,398: Killed
+srun: error: wheeler099: task 293: Killed
+srun: error: wheeler103: tasks 322,327: Killed
+srun: error: wheeler109: tasks 370,373: Killed
+srun: error: wheeler107: tasks 353-355,357-359: Killed
+srun: error: wheeler099: task 290: Killed
+srun: error: wheeler106: tasks 344,346-347,349-351: Killed
+srun: error: wheeler110: tasks 381-382: Killed
+srun: error: wheeler100: tasks 299-300: Killed
+srun: error: wheeler104: tasks 331,333-334: Killed
+srun: error: wheeler098: tasks 280-282,284,287: Killed
+srun: error: wheeler182: task 396: Killed
+srun: error: wheeler105: tasks 338,340,342: Killed
+srun: error: wheeler101: tasks 305-306,310: Killed
+srun: error: wheeler102: tasks 314-315,317,319: Killed
+srun: error: wheeler103: tasks 321,323-324: Killed
+srun: error: wheeler108: tasks 361,367: Killed
+srun: error: wheeler109: tasks 368-369,375: Killed
+srun: error: wheeler099: tasks 288,291: Killed
+srun: error: wheeler104: task 335: Killed
+srun: error: wheeler098: task 283: Killed
+srun: error: wheeler101: task 304: Killed
+srun: error: wheeler109: task 372: Killed
+srun: error: wheeler103: task 325: Killed
+srun: error: wheeler100: tasks 296,298: Killed
+srun: error: wheeler182: tasks 393,395,397: Killed
+srun: error: wheeler099: tasks 292,294: Killed
+srun: error: wheeler110: tasks 377,379,383: Killed
+srun: error: wheeler110: task 378: Killed
+srun: error: wheeler108: tasks 360,363,365-366: Killed
+srun: error: wheeler097: tasks 272,276-277: Killed
+srun: error: wheeler097: tasks 273-275,279: Killed
+srun: error: Timed out waiting for job step to complete
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results Gflops: used:
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.mcd5rpdogY

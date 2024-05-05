@@ -1,0 +1,328 @@
+------- Node --------
+hopper050
+---------------------
+Running on hosts: hopper050
+2024-04-24T16:56:59
+You have been allocated one or more GPUs.
+Job 2461313 running on hopper050
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+
+=========================================================
+================= NVIDIA HPC Benchmarks =================
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+=========================================================
+NVIDIA Release 24.03
+Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+
+=========================================================
+================= NVIDIA HPC Benchmarks =================
+=========================================================
+NVIDIA Release 24.03
+Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+=========================================================
+================= NVIDIA HPC Benchmarks =================
+=========================================================
+NVIDIA Release 24.03
+Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+=========================================================
+================= NVIDIA HPC Benchmarks =================
+=========================================================
+NVIDIA Release 24.03
+Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+NOTE: Mellanox network driver detected, but NVIDIA peer memory driver not
+      detected.  Multi-node communication performance may be reduced.
+
+
+NOTE: Mellanox network driver detected, but NVIDIA peer memory driver not
+      detected.  Multi-node communication performance may be reduced.
+
+NOTE: Mellanox network driver detected, but NVIDIA peer memory driver not
+      detected.  Multi-node communication performance may be reduced.
+
+
+
+NOTE: Mellanox network driver detected, but NVIDIA peer memory driver not
+      detected.  Multi-node communication performance may be reduced.
+
+
+================================================================================
+HPL-NVIDIA 24.3.0  -- NVIDIA accelerated HPL benchmark -- NVIDIA
+================================================================================
+HPLinpack 2.1  --  High-Performance Linpack benchmark  --   October 26, 2012
+Written by A. Petitet and R. Clint Whaley,  Innovative Computing Laboratory, UTK
+Modified by Piotr Luszczek, Innovative Computing Laboratory, UTK
+Modified by Julien Langou, University of Colorado Denver
+================================================================================
+
+An explanation of the input/output parameters follows:
+T/V    : Wall time / encoded variant.
+N      : The order of the coefficient matrix A.
+NB     : The partitioning blocking factor.
+P      : The number of process rows.
+Q      : The number of process columns.
+Time   : Time in seconds to solve the linear system.
+Gflops : Rate of execution for solving the linear system.
+
+The following parameter values will be used:
+
+N      :   10000 
+NB     :    1024 
+PMAP   : Column-major process mapping
+P      :       2 
+Q      :       2 
+PFACT  :    Left 
+NBMIN  :       2 
+NDIV   :       2 
+RFACT  :    Left 
+BCAST  :  2ringM 
+DEPTH  :       1 
+SWAP   : Spread-roll (long)
+L1     : no-transposed form
+U      : transposed form
+EQUIL  : no
+ALIGN  : 8 double precision words
+
+--------------------------------------------------------------------------------
+
+- The matrix A is randomly generated for each test.
+- The following scaled residual check will be computed:
+      ||Ax-b||_oo / ( eps * ( || x ||_oo * || A ||_oo + || b ||_oo ) * N )
+- The relative machine precision (eps) is taken to be               1.110223e-16
+- Computational tests pass if scaled residuals are less than                16.0
+
+
+HPL-NVIDIA ignores the following parameters from input file:
+	* Broadcast parameters
+	* Panel factorization parameters
+	* Look-ahead value
+	* L1 layout
+	* U layout
+	* Equilibration parameter
+	* Memory alignment parameter
+
+HPL-NVIDIA settings from environment variables:
+--- DEVICE INFO ---
+  Peak clock frequency: 1410 MHz
+  SM version          : 80
+  Number of SMs       : 14
+-------------------
+/dvs/p4/build/sw/rel/gpgpu/toolkit/r12.0/main_nvshmem/src/modules/transport/common/transport_ib_common.cpp:95: NULL value mem registration failed 
+
+/dvs/p4/build/sw/rel/gpgpu/toolkit/r12.0/main_nvshmem/src/modules/transport/ibrc/ibrc.cpp:502: non-zero status: 2 Unable to register memory handle.
+[hopper050:1308353:0:1308353] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x10)
+/dvs/p4/build/sw/rel/gpgpu/toolkit/r12.0/main_nvshmem/src/modules/transport/common/transport_ib_common.cpp:95: NULL value mem registration failed 
+
+/dvs/p4/build/sw/rel/gpgpu/toolkit/r12.0/main_nvshmem/src/modules/transport/ibrc/ibrc.cpp:502: non-zero status: 2 Unable to register memory handle.
+[hopper050:1308294:0:1308294] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x10)
+/dvs/p4/build/sw/rel/gpgpu/toolkit/r12.0/main_nvshmem/src/modules/transport/common/transport_ib_common.cpp:95: NULL value mem registration failed 
+/dvs/p4/build/sw/rel/gpgpu/toolkit/r12.0/main_nvshmem/src/modules/transport/common/transport_ib_common.cpp:95: NULL value mem registration failed 
+
+/dvs/p4/build/sw/rel/gpgpu/toolkit/r12.0/main_nvshmem/src/modules/transport/ibrc/ibrc.cpp:502: non-zero status: 2 Unable to register memory handle.
+[hopper050:1308341:0:1308341] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x10)
+
+/dvs/p4/build/sw/rel/gpgpu/toolkit/r12.0/main_nvshmem/src/modules/transport/ibrc/ibrc.cpp:502: non-zero status: 2 Unable to register memory handle.
+[hopper050:1308344:0:1308344] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x10)
+==== backtrace (tid:1308353) ====
+ 0 0x0000000000042520 __sigaction()  ???:0
+ 1 0x00000000000129e5 nvshmemt_mem_handle_cache_remove()  :0
+ 2 0x000000000000b022 nvshmemt_ibrc_get_mem_handle()  :0
+ 3 0x00000000000f5905 register_heap_handle()  mem.cpp:0
+ 4 0x00000000000f68c8 nvshmemi_add_physical_memory()  :0
+ 5 0x00000000000f6bfa nvshmemi_malloc()  ???:0
+ 6 0x0000000000178d16 nvshmemi_proxy_setup_device_channels()  :0
+ 7 0x00000000000e67f1 nvshmemi_proxy_init()  :0
+ 8 0x00000000000f008a nvshmemi_common_init()  :0
+ 9 0x00000000000f16a9 nvshmemi_try_common_init()  :0
+10 0x00000000000f180c nvshmemid_hostlib_init_attr()  ???:0
+11 0x0000000000c63a7a nvshmemi_init_thread()  ???:0
+12 0x0000000000180cc5 cuda_nvshmem_init()  ???:0
+13 0x0000000000025568 main()  ???:0
+14 0x0000000000029d90 __libc_init_first()  ???:0
+15 0x0000000000029e40 __libc_start_main()  ???:0
+16 0x0000000000025e75 _start()  ???:0
+=================================
+[hopper050:1308353] *** Process received signal ***
+==== backtrace (tid:1308294) ====
+ 0 0x0000000000042520 __sigaction()  ???:0
+ 1 0x00000000000129e5 nvshmemt_mem_handle_cache_remove()  :0
+ 2 0x000000000000b022 nvshmemt_ibrc_get_mem_handle()  :0
+ 3 0x00000000000f5905 register_heap_handle()  mem.cpp:0
+ 4 0x00000000000f68c8 nvshmemi_add_physical_memory()  :0
+ 5 0x00000000000f6bfa nvshmemi_malloc()  ???:0
+ 6 0x0000000000178d16 nvshmemi_proxy_setup_device_channels()  :0
+ 7 0x00000000000e67f1 nvshmemi_proxy_init()  :0
+ 8 0x00000000000f008a nvshmemi_common_init()  :0
+ 9 0x00000000000f16a9 nvshmemi_try_common_init()  :0
+10 0x00000000000f180c nvshmemid_hostlib_init_attr()  ???:0
+11 0x0000000000c63a7a nvshmemi_init_thread()  ???:0
+12 0x0000000000180cc5 cuda_nvshmem_init()  ???:0
+13 0x0000000000025568 main()  ???:0
+14 0x0000000000029d90 __libc_init_first()  ???:0
+15 0x0000000000029e40 __libc_start_main()  ???:0
+16 0x0000000000025e75 _start()  ???:0
+=================================
+[hopper050:1308294] *** Process received signal ***
+[hopper050:1308294] Signal: Segmentation fault (11)
+[hopper050:1308294] Signal code:  (-6)
+[hopper050:1308294] Failing at address: 0xed00013f686
+[hopper050:1308294] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x146ab33ed520]
+[hopper050:1308294] [ 1] /opt/nvshmem/lib/nvshmem_transport_ibrc.so.2(+0x129e5)[0x146a6cc129e5]
+[hopper050:1308294] [ 2] /opt/nvshmem/lib/nvshmem_transport_ibrc.so.2(+0xb022)[0x146a6cc0b022]
+[hopper050:1308294] [ 3] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf5905)[0x146ab38f5905]
+[hopper050:1308294] [ 4] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf68c8)[0x146ab38f68c8]
+[hopper050:1308294] [ 5] /opt/nvshmem/lib/libnvshmem_host.so.2(nvshmemi_malloc+0xaa)[0x146ab38f6bfa]
+[hopper050:1308294] [ 6] /opt/nvshmem/lib/libnvshmem_host.so.2(+0x178d16)[0x146ab3978d16]
+[hopper050:1308294] [ 7] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xe67f1)[0x146ab38e67f1]
+[hopper050:1308294] [ 8] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf008a)[0x146ab38f008a]
+[hopper050:1308294] [ 9] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf16a9)[0x146ab38f16a9]
+[hopper050:1308294] [10] /opt/nvshmem/lib/libnvshmem_host.so.2(nvshmemid_hostlib_init_attr+0x12c)[0x146ab38f180c]
+[hopper050:1308294] [11] /workspace/hpl-linux-x86_64/xhpl(+0xc63a7a)[0x556fa45e3a7a]
+[hopper050:1308294] [12] /workspace/hpl-linux-x86_64/xhpl(+0x180cc5)[0x556fa3b00cc5]
+[hopper050:1308294] [13] /workspace/hpl-linux-x86_64/xhpl(+0x25568)[0x556fa39a5568]
+[hopper050:1308294] [14] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x146ab33d4d90]
+[hopper050:1308294] [15] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x146ab33d4e40]
+[hopper050:1308294] [16] /workspace/hpl-linux-x86_64/xhpl(+0x25e75)[0x556fa39a5e75]
+[hopper050:1308294] *** End of error message ***
+[hopper050:1308353] Signal: Segmentation fault (11)
+[hopper050:1308353] Signal code:  (-6)
+[hopper050:1308353] Failing at address: 0xed00013f6c1
+[hopper050:1308353] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x14dd24fed520]
+[hopper050:1308353] [ 1] /opt/nvshmem/lib/nvshmem_transport_ibrc.so.2(+0x129e5)[0x14dcd44129e5]
+[hopper050:1308353] [ 2] /opt/nvshmem/lib/nvshmem_transport_ibrc.so.2(+0xb022)[0x14dcd440b022]
+[hopper050:1308353] [ 3] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf5905)[0x14dd254f5905]
+==== backtrace (tid:1308344) ====
+ 0 0x0000000000042520 __sigaction()  ???:0
+ 1 0x00000000000129e5 nvshmemt_mem_handle_cache_remove()  :0
+ 2 0x000000000000b022 nvshmemt_ibrc_get_mem_handle()  :0
+ 3 0x00000000000f5905 register_heap_handle()  mem.cpp:0
+ 4 0x00000000000f68c8 nvshmemi_add_physical_memory()  :0
+ 5 0x00000000000f6bfa nvshmemi_malloc()  ???:0
+ 6 0x0000000000178d16 nvshmemi_proxy_setup_device_channels()  :0
+ 7 0x00000000000e67f1 nvshmemi_proxy_init()  :0
+ 8 0x00000000000f008a nvshmemi_common_init()  :0
+ 9 0x00000000000f16a9 nvshmemi_try_common_init()  :0
+10 0x00000000000f180c nvshmemid_hostlib_init_attr()  ???:0
+11 0x0000000000c63a7a nvshmemi_init_thread()  ???:0
+12 0x0000000000180cc5 cuda_nvshmem_init()  ???:0
+13 0x0000000000025568 main()  ???:0
+14 0x0000000000029d90 __libc_init_first()  ???:0
+15 0x0000000000029e40 __libc_start_main()  ???:0
+16 0x0000000000025e75 _start()  ???:0
+=================================
+[hopper050:1308344] *** Process received signal ***
+[hopper050:1308344] Signal: Segmentation fault (11)
+[hopper050:1308344] Signal code:  (-6)
+[hopper050:1308344] Failing at address: 0xed00013f6b8
+[hopper050:1308344] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x1480693ed520]
+[hopper050:1308344] [ 1] /opt/nvshmem/lib/nvshmem_transport_ibrc.so.2(+0x129e5)[0x1480136129e5]
+[hopper050:1308344] [ 2] /opt/nvshmem/lib/nvshmem_transport_ibrc.so.2(+0xb022)[0x14801360b022]
+[hopper050:1308344] [ 3] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf5905)[0x1480698f5905]
+[hopper050:1308344] [ 4] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf68c8)[0x1480698f68c8]
+[hopper050:1308344] [ 5] /opt/nvshmem/lib/libnvshmem_host.so.2(nvshmemi_malloc+0xaa)[0x1480698f6bfa]
+[hopper050:1308344] [ 6] /opt/nvshmem/lib/libnvshmem_host.so.2(+0x178d16)[0x148069978d16]
+[hopper050:1308344] [ 7] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xe67f1)[0x1480698e67f1]
+[hopper050:1308344] [ 8] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf008a)[0x1480698f008a]
+[hopper050:1308344] [ 9] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf16a9)[0x1480698f16a9]
+[hopper050:1308344] [10] /opt/nvshmem/lib/libnvshmem_host.so.2(nvshmemid_hostlib_init_attr+0x12c)[0x1480698f180c]
+[hopper050:1308344] [11] /workspace/hpl-linux-x86_64/xhpl(+0xc63a7a)[0x5586503f1a7a]
+[hopper050:1308344] [12] /workspace/hpl-linux-x86_64/xhpl(+0x180cc5)[0x55864f90ecc5]
+[hopper050:1308344] [13] /workspace/hpl-linux-x86_64/xhpl(+0x25568)[0x55864f7b3568]
+[hopper050:1308344] [14] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x1480693d4d90]
+[hopper050:1308344] [15] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x1480693d4e40]
+[hopper050:1308344] [16] /workspace/hpl-linux-x86_64/xhpl(+0x25e75)[0x55864f7b3e75]
+[hopper050:1308344] *** End of error message ***
+[hopper050:1308353] [ 4] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf68c8)[0x14dd254f68c8]
+[hopper050:1308353] [ 5] /opt/nvshmem/lib/libnvshmem_host.so.2(nvshmemi_malloc+0xaa)[0x14dd254f6bfa]
+[hopper050:1308353] [ 6] /opt/nvshmem/lib/libnvshmem_host.so.2(+0x178d16)[0x14dd25578d16]
+[hopper050:1308353] [ 7] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xe67f1)[0x14dd254e67f1]
+[hopper050:1308353] [ 8] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf008a)[0x14dd254f008a]
+[hopper050:1308353] [ 9] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf16a9)[0x14dd254f16a9]
+[hopper050:1308353] [10] /opt/nvshmem/lib/libnvshmem_host.so.2(nvshmemid_hostlib_init_attr+0x12c)[0x14dd254f180c]
+[hopper050:1308353] [11] /workspace/hpl-linux-x86_64/xhpl(+0xc63a7a)[0x55b6bb368a7a]
+[hopper050:1308353] [12] /workspace/hpl-linux-x86_64/xhpl(+0x180cc5)[0x55b6ba885cc5]
+[hopper050:1308353] [13] /workspace/hpl-linux-x86_64/xhpl(+0x25568)[0x55b6ba72a568]
+[hopper050:1308353] [14] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x14dd24fd4d90]
+[hopper050:1308353] [15] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x14dd24fd4e40]
+[hopper050:1308353] [16] /workspace/hpl-linux-x86_64/xhpl(+0x25e75)[0x55b6ba72ae75]
+[hopper050:1308353] *** End of error message ***
+==== backtrace (tid:1308341) ====
+ 0 0x0000000000042520 __sigaction()  ???:0
+ 1 0x00000000000129e5 nvshmemt_mem_handle_cache_remove()  :0
+ 2 0x000000000000b022 nvshmemt_ibrc_get_mem_handle()  :0
+ 3 0x00000000000f5905 register_heap_handle()  mem.cpp:0
+ 4 0x00000000000f68c8 nvshmemi_add_physical_memory()  :0
+ 5 0x00000000000f6bfa nvshmemi_malloc()  ???:0
+ 6 0x0000000000178d16 nvshmemi_proxy_setup_device_channels()  :0
+ 7 0x00000000000e67f1 nvshmemi_proxy_init()  :0
+ 8 0x00000000000f008a nvshmemi_common_init()  :0
+ 9 0x00000000000f16a9 nvshmemi_try_common_init()  :0
+10 0x00000000000f180c nvshmemid_hostlib_init_attr()  ???:0
+11 0x0000000000c63a7a nvshmemi_init_thread()  ???:0
+12 0x0000000000180cc5 cuda_nvshmem_init()  ???:0
+13 0x0000000000025568 main()  ???:0
+14 0x0000000000029d90 __libc_init_first()  ???:0
+15 0x0000000000029e40 __libc_start_main()  ???:0
+16 0x0000000000025e75 _start()  ???:0
+=================================
+[hopper050:1308341] *** Process received signal ***
+[hopper050:1308341] Signal: Segmentation fault (11)
+[hopper050:1308341] Signal code:  (-6)
+[hopper050:1308341] Failing at address: 0xed00013f6b5
+[hopper050:1308341] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x150920fed520]
+[hopper050:1308341] [ 1] /opt/nvshmem/lib/nvshmem_transport_ibrc.so.2(+0x129e5)[0x1508c8c129e5]
+[hopper050:1308341] [ 2] /opt/nvshmem/lib/nvshmem_transport_ibrc.so.2(+0xb022)[0x1508c8c0b022]
+[hopper050:1308341] [ 3] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf5905)[0x1509214f5905]
+[hopper050:1308341] [ 4] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf68c8)[0x1509214f68c8]
+[hopper050:1308341] [ 5] /opt/nvshmem/lib/libnvshmem_host.so.2(nvshmemi_malloc+0xaa)[0x1509214f6bfa]
+[hopper050:1308341] [ 6] /opt/nvshmem/lib/libnvshmem_host.so.2(+0x178d16)[0x150921578d16]
+[hopper050:1308341] [ 7] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xe67f1)[0x1509214e67f1]
+[hopper050:1308341] [ 8] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf008a)[0x1509214f008a]
+[hopper050:1308341] [ 9] /opt/nvshmem/lib/libnvshmem_host.so.2(+0xf16a9)[0x1509214f16a9]
+[hopper050:1308341] [10] /opt/nvshmem/lib/libnvshmem_host.so.2(nvshmemid_hostlib_init_attr+0x12c)[0x1509214f180c]
+[hopper050:1308341] [11] /workspace/hpl-linux-x86_64/xhpl(+0xc63a7a)[0x5602827ffa7a]
+[hopper050:1308341] [12] /workspace/hpl-linux-x86_64/xhpl(+0x180cc5)[0x560281d1ccc5]
+[hopper050:1308341] [13] /workspace/hpl-linux-x86_64/xhpl(+0x25568)[0x560281bc1568]
+[hopper050:1308341] [14] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x150920fd4d90]
+[hopper050:1308341] [15] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x150920fd4e40]
+[hopper050:1308341] [16] /workspace/hpl-linux-x86_64/xhpl(+0x25e75)[0x560281bc1e75]
+[hopper050:1308341] *** End of error message ***
+/users/rdscher/CLASS/cs491/nvidia-benchmarks/hpl.sh: line 250: 1308344 Segmentation fault      ${NUMCMD} ${CPUBIND} ${MEMBIND} ${XHPL} ${DAT}
+/users/rdscher/CLASS/cs491/nvidia-benchmarks/hpl.sh: line 250: 1308353 Segmentation fault      ${NUMCMD} ${CPUBIND} ${MEMBIND} ${XHPL} ${DAT}
+/users/rdscher/CLASS/cs491/nvidia-benchmarks/hpl.sh: line 250: 1308294 Segmentation fault      ${NUMCMD} ${CPUBIND} ${MEMBIND} ${XHPL} ${DAT}
+/users/rdscher/CLASS/cs491/nvidia-benchmarks/hpl.sh: line 250: 1308341 Segmentation fault      ${NUMCMD} ${CPUBIND} ${MEMBIND} ${XHPL} ${DAT}
+srun: error: hopper050: tasks 0-3: Exited with exit code 139
+Done
+2024-04-24T16:56:59

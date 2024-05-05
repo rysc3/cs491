@@ -1,0 +1,47 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 1: 336, 8, 8, 125000
+Read param BLOCK_SIZE: 336
+Read param P_VAL: 8
+Read param Q_VAL: 8
+Read param N_VAL: 125000
+Temp directory: /carc/scratch/users/rdscher/tmp.pZuXwdljvg
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.pZuXwdljvg/1
+Now running in /carc/scratch/users/rdscher/tmp.pZuXwdljvg/1
+Running xhpl in /carc/scratch/users/rdscher/tmp.pZuXwdljvg/1...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2486581 running on hopper[009-010]
+slurmstepd: error: Detected 1 oom_kill event in StepId=2486581.0. Some of the step tasks have been OOM Killed.
+srun: error: hopper010: task 50: Out Of Memory
+HPL ERROR from process # 34, on line 247 of function HPL_pdpanel_init:
+>>> Memory allocation failed <<< Abort ...
+
+HPL ERROR from process # 35, on line 247 of function HPL_pdpanel_init:
+>>> Memory allocation failed <<< Abort ...
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 34 in communicator MPI_COMM_WORLD
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 35 in communicator MPI_COMM_WORLD
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2486581.0 ON hopper009 CANCELLED AT 2024-05-03T13:23:01 ***
+srun: error: hopper009: tasks 0,2,5,8,12,14,16-18,20,23-24,27-30: Killed
+srun: error: hopper009: tasks 1,3-4,6-7,9-11,13,15,19,21-22,25-26,31: Killed
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results Gflops: used:
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.pZuXwdljvg

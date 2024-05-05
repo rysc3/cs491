@@ -1,0 +1,617 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"gcc/11.2.0-655h"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "gcc/11.2.0-655h"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Using parameter file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_template.dat
+Read param line 6: 232, 20, 20, 30000
+Read param BLOCK_SIZE: 232
+Read param P_VAL: 20
+Read param Q_VAL: 20
+Read param N_VAL: 30000
+Temp directory: /carc/scratch/users/rdscher/tmp.los5CyxRuy
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.los5CyxRuy/6
+Now running in /carc/scratch/users/rdscher/tmp.los5CyxRuy/6
+Running xhpl in /carc/scratch/users/rdscher/tmp.los5CyxRuy/6...
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler280: tasks 248-249,251,255: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler255: tasks 48,50,53,55: Exited with exit code 2
+srun: error: wheeler259: tasks 80,84-85,87: Exited with exit code 2
+srun: error: wheeler249: tasks 1,5: Exited with exit code 2
+srun: error: wheeler270: tasks 170,173-174: Exited with exit code 2
+srun: error: wheeler273: tasks 193,196-199: Exited with exit code 2
+srun: error: wheeler253: tasks 34,36,38-39: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler272: tasks 188-190: Exited with exit code 2
+srun: error: wheeler289: tasks 321-322,324-325,327: Exited with exit code 2
+srun: error: wheeler256: tasks 56,60,62-63: Exited with exit code 2
+srun: error: wheeler291: tasks 337-338,342-343: Exited with exit code 2
+srun: error: wheeler278: tasks 236-239: Exited with exit code 2
+srun: error: wheeler293: tasks 353,355-356,359: Exited with exit code 2
+srun: error: wheeler266: tasks 136,138,140-142: Exited with exit code 2
+srun: error: wheeler281: tasks 256-258,260,262-263: Exited with exit code 2
+srun: error: wheeler284: tasks 282,284,286-287: Exited with exit code 2
+srun: error: wheeler251: tasks 18,20-22: Exited with exit code 2
+srun: error: wheeler260: tasks 88,91,93,95: Exited with exit code 2
+srun: error: wheeler277: tasks 224,226,228-230: Exited with exit code 2
+srun: error: wheeler294: tasks 360-361,363,365: Exited with exit code 2
+srun: error: wheeler269: tasks 160,163-164: Exited with exit code 2
+srun: error: wheeler267: tasks 146,148: Exited with exit code 2
+srun: error: wheeler283: tasks 273,275,278-279: Exited with exit code 2
+srun: error: wheeler261: tasks 100-103: Exited with exit code 2
+srun: error: wheeler279: tasks 241,243-245: Exited with exit code 2
+srun: error: wheeler292: tasks 344,346-348: Exited with exit code 2
+srun: error: wheeler296: tasks 376,378-379,382: Exited with exit code 2
+srun: error: wheeler263: tasks 113,118-119: Exited with exit code 2
+srun: error: wheeler282: tasks 265,268,271: Exited with exit code 2
+srun: error: wheeler287: tasks 305-306,308: Exited with exit code 2
+srun: error: wheeler285: tasks 290-291,293-294: Exited with exit code 2
+srun: error: wheeler298: tasks 394,396-398: Exited with exit code 2
+srun: error: wheeler254: tasks 42,44-45,47: Exited with exit code 2
+srun: error: wheeler264: tasks 120,122-124,127: Exited with exit code 2
+srun: error: wheeler275: tasks 208-209,212,215: Exited with exit code 2
+srun: error: wheeler271: tasks 177,182-183: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler274: tasks 201,203,206: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler288: tasks 314,316-318: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler290: tasks 328,332: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler274: task 207: Exited with exit code 2
+srun: error: wheeler282: tasks 266,270: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler288: task 312: Exited with exit code 2
+srun: error: wheeler271: task 179: Exited with exit code 2
+srun: error: wheeler290: tasks 331,333: Exited with exit code 2
+srun: error: wheeler269: task 165: Exited with exit code 2
+srun: error: wheeler272: task 184: Exited with exit code 2
+srun: error: wheeler249: tasks 3,7: Exited with exit code 2
+srun: error: wheeler267: tasks 145,147: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler284: task 280: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler287: task 310: Exited with exit code 2
+srun: error: wheeler274: task 202: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler264: task 125: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler296: task 380: Exited with exit code 2
+srun: error: wheeler254: task 46: Exited with exit code 2
+srun: error: wheeler270: task 172: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler289: tasks 320,323: Exited with exit code 2
+srun: error: wheeler259: task 83: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler251: task 19: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler263: task 112: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler294: task 367: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler291: task 339: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler255: task 51: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler277: task 225: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler273: tasks 192,195: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler290: tasks 329,335: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler271: task 176: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler270: task 168: Exited with exit code 2
+srun: error: wheeler260: task 90: Exited with exit code 2
+srun: error: wheeler292: task 350: Exited with exit code 2
+srun: error: wheeler269: task 161: Exited with exit code 2
+srun: error: wheeler280: task 253: Exited with exit code 2
+srun: error: wheeler266: task 143: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler288: task 313: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler249: tasks 0,4: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler287: task 304: Exited with exit code 2
+srun: error: wheeler263: tasks 114-115: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler285: task 288: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler274: task 205: Exited with exit code 2
+srun: error: wheeler294: tasks 362,366: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler278: tasks 232,234: Exited with exit code 2
+srun: error: wheeler267: tasks 149,151: Exited with exit code 2
+srun: error: wheeler272: task 185: Exited with exit code 2
+srun: error: wheeler283: tasks 276-277: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler282: task 264: Exited with exit code 2
+srun: error: wheeler279: task 242: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler253: task 37: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler251: tasks 16-17: Exited with exit code 2
+srun: error: wheeler275: task 213: Exited with exit code 2
+srun: error: wheeler270: task 169: Exited with exit code 2
+srun: error: wheeler298: task 393: Exited with exit code 2
+srun: error: wheeler287: task 309: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler263: task 117: Exited with exit code 2
+srun: error: wheeler256: tasks 58,61: Exited with exit code 2
+srun: error: wheeler284: task 285: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler293: tasks 352,354: Exited with exit code 2
+srun: error: wheeler266: task 137: Exited with exit code 2
+srun: error: wheeler269: task 166: Exited with exit code 2
+srun: error: wheeler261: task 96: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler260: tasks 89,92: Exited with exit code 2
+srun: error: wheeler298: task 395: Exited with exit code 2
+srun: error: wheeler259: task 86: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler294: task 364: Exited with exit code 2
+srun: error: wheeler289: task 326: Exited with exit code 2
+srun: error: wheeler280: task 252: Exited with exit code 2
+srun: error: wheeler277: task 231: Exited with exit code 2
+srun: error: wheeler281: tasks 259,261: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler264: task 126: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler267: task 150: Exited with exit code 2
+srun: error: wheeler274: task 204: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler285: task 289: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler272: task 191: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler290: tasks 330,334: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler291: task 340: Exited with exit code 2
+srun: error: wheeler254: task 41: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler284: task 281: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler280: task 250: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler261: tasks 97,99: Exited with exit code 2
+srun: error: wheeler292: tasks 349,351: Exited with exit code 2
+srun: error: wheeler288: task 315: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler282: task 269: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler260: task 94: Exited with exit code 2
+srun: error: wheeler269: task 167: Exited with exit code 2
+srun: error: wheeler249: task 2: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler253: tasks 32-33: Exited with exit code 2
+srun: error: wheeler293: task 358: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler277: task 227: Exited with exit code 2
+srun: error: wheeler256: task 57: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler283: task 272: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler255: tasks 52,54: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler270: task 171: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler275: tasks 210-211,214: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler253: task 35: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler271: tasks 178,180-181: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler251: task 23: Exited with exit code 2
+srun: error: wheeler263: task 116: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler280: task 254: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler296: tasks 377,381: Exited with exit code 2
+srun: error: wheeler272: tasks 186-187: Exited with exit code 2
+srun: error: wheeler255: task 49: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler291: tasks 336,341: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler259: tasks 81-82: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler267: task 144: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler273: task 194: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler279: tasks 240,246-247: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler285: tasks 292,295: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler284: task 283: Exited with exit code 2
+srun: error: wheeler249: task 6: Exited with exit code 2
+srun: error: wheeler252: tasks 25,31: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler274: task 200: Exited with exit code 2
+srun: error: wheeler287: tasks 307,311: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler293: task 357: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler298: tasks 392,399: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler288: task 319: Exited with exit code 2
+srun: error: wheeler265: task 133: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler264: task 121: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler257: tasks 66,71: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler266: task 139: Exited with exit code 2
+srun: error: wheeler261: task 98: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler292: task 345: Exited with exit code 2
+srun: error: wheeler296: task 383: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler256: task 59: Exited with exit code 2
+srun: error: wheeler269: task 162: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler270: task 175: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler278: tasks 233,235: Exited with exit code 2
+srun: error: wheeler295: tasks 368-370,374: Exited with exit code 2
+srun: error: wheeler282: task 267: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler262: tasks 105,107,111: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler268: tasks 152,154,156-157,159: Exited with exit code 2
+srun: error: wheeler276: tasks 219,221: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler286: tasks 298,300-302: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler283: task 274: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler250: tasks 9-11,13,15: Exited with exit code 2
+srun: error: wheeler254: tasks 40,43: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler297: tasks 386-388,391: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler258: tasks 73,76-78: Exited with exit code 2
+srun: error: wheeler265: tasks 128,130-132,135: Exited with exit code 2
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+srun: error: wheeler257: tasks 64-65,67-70: Exited with exit code 2
+srun: error: wheeler252: tasks 24,26-30: Exited with exit code 2
+srun: error: wheeler262: tasks 104,106,108-110: Exited with exit code 2
+srun: error: wheeler276: tasks 216-218,220,222-223: Exited with exit code 2
+srun: error: wheeler268: tasks 153,155,158: Exited with exit code 2
+srun: error: wheeler286: tasks 296-297,299,303: Exited with exit code 2
+srun: error: wheeler250: tasks 8,12,14: Exited with exit code 2
+srun: error: wheeler297: tasks 384-385,389-390: Exited with exit code 2
+srun: error: wheeler258: tasks 72,74-75,79: Exited with exit code 2
+srun: error: wheeler295: tasks 371-373,375: Exited with exit code 2
+srun: error: wheeler265: tasks 129,134: Exited with exit code 2
+xhpl finished
+grep: HPL.out: No such file or directory
+Results:
+Results data:
+Results Gflops:
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.los5CyxRuy

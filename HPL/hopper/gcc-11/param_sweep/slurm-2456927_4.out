@@ -1,0 +1,30 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 4: 336, 16, 8, 400000
+Read param BLOCK_SIZE: 336
+Read param P_VAL: 16
+Read param Q_VAL: 8
+Read param N_VAL: 400000
+Temp directory: /carc/scratch/users/rdscher/tmp.aLmFtpe2po
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.aLmFtpe2po/4
+Now running in /carc/scratch/users/rdscher/tmp.aLmFtpe2po/4
+Running xhpl in /carc/scratch/users/rdscher/tmp.aLmFtpe2po/4...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2458887 running on hopper[002-005]
+--------------------------------------------------------------------------
+It appears as if there is not enough space for /tmp/ompi.hopper005.3792/jf.34055/0/shared_mem_cuda_pool.hopper005 (the shared-memory backing
+file). It is likely that your MPI job will now either abort or experience
+performance degradation.
+
+  Local host:  hopper005
+  Space Requested: 134217736 B
+  Space Available: 21700608 B
+--------------------------------------------------------------------------
+[hopper005:2991273] create_and_attach: unable to create shared memory BTL coordinating strucure :: size 134217728 
+slurmstepd: error: Detected 1 oom_kill event in StepId=2458887.0. Some of the step tasks have been OOM Killed.
+srun: error: hopper005: task 100: Out Of Memory
+slurmstepd: error: Detected 1 oom_kill event in StepId=2458887.0. Some of the step tasks have been OOM Killed.
+slurmstepd: error: Detected 1 oom_kill event in StepId=2458887.0. Some of the step tasks have been OOM Killed.
+slurmstepd: error: Detected 1 oom_kill event in StepId=2458887.0. Some of the step tasks have been OOM Killed.
+slurmstepd: error: *** STEP 2458887.0 ON hopper002 CANCELLED AT 2024-04-19T17:33:16 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 2458887 ON hopper002 CANCELLED AT 2024-04-19T17:33:16 DUE TO TIME LIMIT ***

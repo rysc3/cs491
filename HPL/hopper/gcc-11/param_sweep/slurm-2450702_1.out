@@ -1,0 +1,25 @@
+slurmstepd: error: Failed to initialize NVML: Driver Not Loaded
+slurmstepd: error: Failed to get device count: Uninitialized
+Using parameter file /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 1: 160, 32, 4, 125000
+Read param BLOCK_SIZE: 160
+Read param P_VAL: 32
+Read param Q_VAL: 4
+Read param N_VAL: 125000
+Temp directory: /carc/scratch/users/rdscher/tmp.MnblrmM4Ba
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.MnblrmM4Ba/1
+Now running in /carc/scratch/users/rdscher/tmp.MnblrmM4Ba/1
+Running xhpl in /carc/scratch/users/rdscher/tmp.MnblrmM4Ba/1...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2450823 running on hopper[016,041,050,053]
+[hopper053:3076701:0:3076965] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x153d2d48287f)
+srun: error: hopper053: task 105: Segmentation fault
+slurmstepd: error: Failed to get device count: Uninitialized
+slurmstepd: error: Failed to get device count: Uninitialized
+slurmstepd: error: Failed to get device count: Uninitialized
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2450823.0 ON hopper016 CANCELLED AT 2024-04-12T01:46:08 ***
+slurmstepd: error: *** JOB 2450823 ON hopper016 CANCELLED AT 2024-04-12T01:46:08 ***
+slurmstepd: error: Failed to get device count: Uninitialized
+slurmstepd: error: Failed to get device count: Uninitialized

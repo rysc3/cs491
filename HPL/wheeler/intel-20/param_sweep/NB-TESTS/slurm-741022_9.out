@@ -1,0 +1,161 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"gcc/11.2.0-655h"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "gcc/11.2.0-655h"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Using parameter file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_template.dat
+Read param line 9: 256, 20, 20, 30000
+Read param BLOCK_SIZE: 256
+Read param P_VAL: 20
+Read param Q_VAL: 20
+Read param N_VAL: 30000
+Temp directory: /carc/scratch/users/rdscher/tmp.qkFi6XBjP0
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.qkFi6XBjP0/9
+Now running in /carc/scratch/users/rdscher/tmp.qkFi6XBjP0/9
+Running xhpl in /carc/scratch/users/rdscher/tmp.qkFi6XBjP0/9...
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: *** STEP 741031.0 ON wheeler249 CANCELLED AT 2024-04-16T09:30:49 ***
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: execve(): xhpl: No such file or directory
+slurmstepd: error: *** JOB 741031 ON wheeler249 CANCELLED AT 2024-04-16T09:30:49 ***

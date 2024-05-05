@@ -1,0 +1,20 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_template.dat
+Read param line 10: 512, 512, 512, 300
+Read param NX: 512
+Read param NY: 512
+Read param NZ: 512
+Read param TIME: 300
+Temp directory: /carc/scratch/users/rdscher/tmp.UQKhTeCgoc
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.UQKhTeCgoc/10
+Now running in /carc/scratch/users/rdscher/tmp.UQKhTeCgoc/10
+Running xhpcg in /carc/scratch/users/rdscher/tmp.UQKhTeCgoc/10...
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+CUDART: cudaMalloc((void**)&(send_buffer_d), 27*sendbufld*sizeof(local_int_t)) = 700 (an illegal memory access was encountered) on hopper050 at (../src/SetupHalo.cpp:80)
+srun: error: hopper050: task 0: Exited with exit code 1
+xhpcg finished
+Final Summary:
+
+Results Gflops: 
+Writing input parameters and gflops to /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_results.csv

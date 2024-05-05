@@ -1,0 +1,14 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPL/wheeler/intel-20/param_sweep/HPL_template.dat
+Read param line 24: 216, 20, 20, 30000
+Read param BLOCK_SIZE: 216
+Read param P_VAL: 20
+Read param Q_VAL: 20
+Read param N_VAL: 30000
+Temp directory: /carc/scratch/users/rdscher/tmp.rhTCow5sqP
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.rhTCow5sqP/24
+Now running in /carc/scratch/users/rdscher/tmp.rhTCow5sqP/24
+Running xhpl in /carc/scratch/users/rdscher/tmp.rhTCow5sqP/24...
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 741107.0 ON wheeler249 CANCELLED AT 2024-04-16T11:08:31 ***
+slurmstepd: error: *** JOB 741107 ON wheeler249 CANCELLED AT 2024-04-16T11:08:31 ***

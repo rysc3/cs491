@@ -1,0 +1,43 @@
+Using parameter file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_params.csv
+Using template file /users/rdscher/CLASS/cs491/HPCG/param_sweep/gpu/HPCG_template.dat
+Read param line 2: 112, 112, 128, 60
+Read param NX: 112
+Read param NY: 112
+Read param NZ: 128
+Read param TIME: 60
+Temp directory: /carc/scratch/users/rdscher/tmp.3Fk377YT61
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.3Fk377YT61/2
+Now running in /carc/scratch/users/rdscher/tmp.3Fk377YT61/2
+Running xhpcg in /carc/scratch/users/rdscher/tmp.3Fk377YT61/2...
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+13:4: not a valid test operator: (
+13:4: not a valid test operator: for
+ ** On entry to cusparseCreate(): CUDA context cannot be initialized
+
+ ** On entry to cusparseSetStream() parameter number 1 (handle) had an illegal value: NULL pointer
+
+ ** On entry to cusparseSetPointerMode() parameter number 1 (handle) had an illegal value: NULL pointer
+
+CUDART: cudaMalloc((void**)&(send_buffer_d), 27*sendbufld*sizeof(local_int_t)) = 100 (no CUDA-capable device is detected) on hopper050 at (../src/SetupHalo.cpp:80)
+ ** On entry to cusparseCreate(): CUDA context cannot be initialized
+
+ ** On entry to cusparseSetStream() parameter number 1 (handle) had an illegal value: NULL pointer
+
+ ** On entry to cusparseSetPointerMode() parameter number 1 (handle) had an illegal value: NULL pointer
+
+CUDART: cudaMalloc((void**)&(send_buffer_d), 27*sendbufld*sizeof(local_int_t)) = 100 (no CUDA-capable device is detected) on hopper050 at (../src/SetupHalo.cpp:80)
+ ** On entry to cusparseCreate(): CUDA context cannot be initialized
+
+ ** On entry to cusparseSetStream() parameter number 1 (handle) had an illegal value: NULL pointer
+
+ ** On entry to cusparseSetPointerMode() parameter number 1 (handle) had an illegal value: NULL pointer
+
+CUDART: cudaMalloc((void**)&(send_buffer_d), 27*sendbufld*sizeof(local_int_t)) = 100 (no CUDA-capable device is detected) on hopper050 at (../src/SetupHalo.cpp:80)
+srun: error: hopper050: tasks 1-3: Exited with exit code 1
+slurmstepd: error: *** JOB 2492815 ON hopper050 CANCELLED AT 2024-05-04T10:13:06 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 2492815.0 ON hopper050 CANCELLED AT 2024-05-04T10:13:06 DUE TO TIME LIMIT ***
